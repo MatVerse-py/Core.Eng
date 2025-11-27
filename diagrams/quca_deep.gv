@@ -1,0 +1,1 @@
+digraph QUCA { CND -> SCDI; SCDI -> SCIDIS; SCIDIS -> OMEGAGATE; }

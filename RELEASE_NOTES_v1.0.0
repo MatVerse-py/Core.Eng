@@ -1,0 +1,32 @@
+## MatVerse-Core 2025 — Release v1.0.0
+Este é o primeiro release oficial do ecossistema cognitivo antifrágil MatVerse-Core.
+
+### Conteúdo do Release
+- Kernel SymbiOS funcional
+- QUCA operacional com sincronização de estados
+- SCDI/SDCI/SCIDIS completos
+- CND (Neguentropia) implementado
+- Ω-GATE (POSE/POLE/Hₑ)
+- API REST + gRPC
+- Dockerfile / docker-compose
+- K8s + Istio + OPA
+- CLI `matv`
+- Diagramas ASCII + Graphviz
+- Simulador QUCA/CND
+- Testes unitários e científicos
+- GitHub Actions CI
+
+### Changelog
+- Adicionados módulos centrais
+- Adicionado whitepaper
+- Adicionado pipeline CI
+- Adicionados templates GitHub
+- Criado CLI oficial
+- Criados diagramas de arquitetura
+
+### Checklist de Publicação
+- [x] Monorepo validado
+- [x] Documentação completa
+- [x] CI operacional
+- [x] Segurança definida
+- [x] Licenciamento configurado

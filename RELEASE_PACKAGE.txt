@@ -1,0 +1,5 @@
+Este release pode ser empacotado como:
+- matverse-core-2025_v1.0.0.tar.gz
+- matverse-core-2025_v1.0.0.zip
+
+Inclui todos os diretórios e arquivos conforme o canvas.

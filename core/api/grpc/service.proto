@@ -1,0 +1,6 @@
+syntax = "proto3";
+service Cognitive {
+  rpc Evaluate(Entropy) returns (Decision) {}
+}
+message Entropy { double value = 1; }
+message Decision { double score = 1; }

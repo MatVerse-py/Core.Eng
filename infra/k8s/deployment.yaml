@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: {name: matverse-core}
+spec:
+  replicas: 2
+  selector: {matchLabels: {app: matverse}}
+  template:
+    metadata: {labels: {app: matverse}}
+    spec:
+      containers:
+        - name: api
+          image: matverse-core:latest
