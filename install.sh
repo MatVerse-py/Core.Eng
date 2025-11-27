@@ -1,0 +1,1 @@
+Instalador simples para dependências.

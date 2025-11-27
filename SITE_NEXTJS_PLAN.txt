@@ -1,0 +1,6 @@
+Estrutura sugerida para site oficial:
+- /pages/index.js (landing)
+- /pages/docs.js
+- /api/eval (proxy)
+- /components/architecture-diagram
+- tailwind.css

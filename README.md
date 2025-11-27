@@ -1,2 +1,2 @@
-# MatVerse Core.Eng
-IA Operacional Quântico-Simbiótica.
+MatVerse-Core 2025 — IA Projetada
+Sistema cognitivo antifrágil unificado.
