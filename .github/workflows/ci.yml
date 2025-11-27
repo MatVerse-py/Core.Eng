@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install deps
-        run: pip install numpy fastapi
+        run: pip install numpy fastapi pytest
       - name: Run tests
         run: pytest
