@@ -33,3 +33,7 @@ no repositório remoto. Execute as etapas a seguir:
 
 Esses passos ajudam a garantir que os comandos de release apontem para refs
 válidos e evitam falhas ao preparar o pacote de lançamento.
+
+## Genesis Node v0.1
+
+A decisão estratégica e o plano de lançamento do Genesis Node v0.1 estão documentados em `GENESIS_NODE_V0.1_PLAN.md`.
