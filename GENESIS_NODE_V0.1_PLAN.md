@@ -57,3 +57,7 @@ O Genesis Node v0.1 só deve ser exposto publicamente quando estes critérios es
 Se qualquer invariante falhar (threshold, replay, fail-closed, assinatura, persistência), o lançamento público é automaticamente **NO-GO**.
 
 Se todos os invariantes passarem, o release é **GO** e pode ser tratado como o primeiro organismo público do MatVerse.
+
+## Marca de registro
+
+Registro de autoria/referência institucional vinculado ao ORCID: <https://orcid.org/0009-0008-2973-4047>.
