@@ -1,4 +1,4 @@
-from ..scoring import score
+from ...scdi.scoring import score
 
 
 def evaluate_payload(payload):
