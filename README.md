@@ -1,41 +1,11 @@
-MatVerse-Core 2025 — IA Projetada
-Sistema cognitivo antifrágil unificado.
+# symbiOS Core v1.0
 
-## Solução de problemas de Git
-Se ao tentar baixar o release aparecer uma mensagem como:
+## Canonical Triple Anchor
+- **SHA256:** `a259d8c5b0a37c4f5460ad64917ab6f625626196f334ee8a5b85ecff53451981`
+- **Zenodo DOI:** [10.5281/zenodo.18828810](https://doi.org/10.5281/zenodo.18828810)
+- **Sepolia TX:** [0xe7a1b29fda4f6de438bba8722b1f80be267f8cf4c7c685143cdb89c54ea62a1d](https://sepolia.etherscan.io/tx/0xe7a1b29fda4f6de438bba8722b1f80be267f8cf4c7c685143cdb89c54ea62a1d)
+- **HF Dataset:** [symbios-core-canonical](https://huggingface.co/datasets/MatverseHub/symbios-core-canonical)
+- **HF Space:** [symbios-proof](https://huggingface.co/spaces/MatverseHub/symbios-proof)
 
-- `Provided git ref codex/prepare-release-v1.0.0-for-core.eng does not exist`
-- `fatal: couldn't find remote ref codex/add-documentation-for-modules`
-
-o ambiente está tentando acessar uma referência (branch/tag) que não existe
-no repositório remoto. Execute as etapas a seguir:
-
-1. Atualize os refs remotos para garantir que todos os branches e tags
-   estejam visíveis localmente:
-   ```bash
-   git fetch --all --prune
-   ```
-2. Verifique se o ref está disponível no repositório remoto ou se houve
-   alteração no nome:
-   ```bash
-   git ls-remote --heads origin | grep "codex/"
-   git ls-remote --tags origin | grep "prepare-release"
-   ```
-3. Se o branch foi criado localmente e ainda não está no GitHub, publique-o:
-   ```bash
-   git push -u origin codex/add-documentation-for-modules
-   ```
-4. Caso o ref realmente não exista, confirme qual é o branch ou tag correto
-   para o release e use esse identificador no clone/checkout, por exemplo:
-   ```bash
-   git checkout main
-   ```
-
-Esses passos ajudam a garantir que os comandos de release apontem para refs
-válidos e evitam falhas ao preparar o pacote de lançamento.
-
-## Genesis Node v0.1
-
-A decisão estratégica e o plano de lançamento do Genesis Node v0.1 estão documentados em `GENESIS_NODE_V0.1_PLAN.md`.
-
-Marca de registro (ORCID): <https://orcid.org/0009-0008-2973-4047>.
+## Proof of Integrity
+O arquivo `canonical-proof.json` contém os detalhes técnicos da ancoragem pública realizada em 01/03/2026.
